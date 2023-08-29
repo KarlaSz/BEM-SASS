@@ -10,4 +10,54 @@ body {
   align-items: center;
   height: 100vh;
   font-family: monospace;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 420px;
+  height: 480px;
+  background-color: #e1e8ec;
+  border-radius: 30px;
+  font-size: 20px;
+}
+.form__body {
+  margin: 30px 20px;
+}
+.form__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.form__box {
+  margin: 20px 0;
+}
+.form__label {
+  padding-bottom: 10px;
+  text-align: left;
+}
+.form__input {
+  width: 380px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.form__btns {
+  display: flex;
+  justify-content: space-around;
+}
+.form__btn {
+  border: 2px solid black;
+  padding: 10px 30px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.form__btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+.form__btn--primary {
+  background-color: royalblue;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
