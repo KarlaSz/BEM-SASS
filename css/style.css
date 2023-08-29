@@ -2,4 +2,51 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: monospace;
+}
+
+.card {
+  width: 400px;
+  background-color: #f0ebe0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card__img {
+  width: 100%;
+  transition: 0.3s;
+}
+.card__img:hover {
+  transform: scale(1.1);
+}
+.card__body {
+  padding: 20px 20px;
+}
+.card__text {
+  margin: 20px 0;
+}
+.card__btns {
+  display: flex;
+  justify-content: space-around;
+}
+.card__btn {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.card__btn--highlight {
+  background-color: rgb(71, 151, 111);
+  color: #fff;
+}
+.card__btn:hover {
+  background-color: rgb(44, 77, 60);
+  color: #fff;
+  box-shadow: 0 0 13px rgb(44, 77, 60);
 }/*# sourceMappingURL=style.css.map */
